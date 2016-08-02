@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+}
+
+.top-nav {
+  background-color: #EEEEEE;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+nav, a:link {
+  text-decoration: none;
+}
+
+nav, a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: black;
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  display: inline-block;
+  float: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 3px;
+}
+
+main {
+  padding-top: 80px;
+  padding-left: 80px;
+}
+
+label {
+  font-family: "Roboto", sans-serif;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  width: 400px;
+  height: 25px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  padding-left: 12px;
+}
+
+.search-button {
+  width: 30px;
+  height: 29px;
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  padding-top: 3px;
+  font-size: 14px;
+}
+
+.pages {
+  width: 299px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  background-color: white;
+  font-size: 0;
+  margin-top: 30px;
+}
+
+.pages-button {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  padding: 10px 13px;
+  text-decoration: none;
+
+}
+
+.pages-number {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-right: 1px solid #DDDDDD;
+  border-left: 1px solid #DDDDDD;
+}
+
+.listings {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.fa-star, .fa-trash {
+  color: grey;
+}
+
+.fa-star:hover, .fa-trash:hover {
+  color: yellow;
+}
+
+.listing {
+  padding: 10px 0px;
+}
+
+.listing-title {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+span.listing-date, .listing-location {
+  padding: 0px 10px;
+  color: grey;
+}
